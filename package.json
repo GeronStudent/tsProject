@@ -1,0 +1,13 @@
+{
+  "name": "site-app",
+  "version": "1.0",
+  "scripts": {
+    "geron": "cd src/scripts && yarn tsc && node geron && cd ../.."
+  },
+  "description": "first backend app",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
